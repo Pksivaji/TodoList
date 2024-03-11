@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  
+}
+
+.logo {
+  width: 35px;
+  margin-left: 53px;
+}
+
+.a {
+  text-decoration: none;
+  color: rgb(178, 173, 173);
+}
+.a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+.icons {
+  cursor: pointer;
+  display: flex;
+  gap: 4vw;
+  color: rgb(237, 63, 63);
+  margin-top: 5px;
+}
+
+.srch1 {
+  display: flex;
+  width: 80vw;
+  padding: 5px;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: rgb(29, 28, 28);
+  color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+}
+
+.srch-div {
+  position: relative;
+  display: flex;
+  display: none;
+  flex-direction: row;
+}
+.srch-div-icon {
+  color: rgb(187, 194, 201);
+  float: left;
+  margin-top: -2.4vw;
+  margin-left: 0.6vw;
+}
+.srch-div-Xicon {
+  color: aquamarine;
+  float: right;
+  margin-top: 1vw;
+  margin-left: -22px;
+  font-size: 22px;
+}
+
+
+/* ---------------@media ----------------- */
+@media (max-width: 750px) {
+  /* search bar */
+
+  .logo {
+    margin-left: 5vw;
+  }
+
+  .srch1 {
+    display: none;
+  }
+
+  .srch-div-icon {
+    display: none;
+  }
+  .srch-div-icon {
+    display: none;
+  }
+
+}
+
+/* ----------------footer component -------------- */
+
+.footer {
+  background-color: #000;
+  padding: 30px 27px 15px 20px;
+}
+
+.logo2 {
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.footerCon {
+  display: flex;
+  font-size: 15px;
+  border-bottom: 1px solid green;
+  padding-bottom: 15px;
+}
+
+.footerSubCon {
+  display: flex;
+  flex-flow: column;
+  width: 15vw;
+  gap: 15px;
+  /* cursor: pointer; */
+}
+
+.footerSubCon2 {
+  display: flex;
+  justify-content: space-between;
+
+}
+.font {
+  font-size: 13px;
+  margin-left: 4px;
+  gap: 2px;
+}
+    /* -------------@media footer----------- */
+@media (max-width: 750px) {
+  .font {
+    font-size: 15px;
+  }
+}
+
+/* -----------------Home ---component-------------------- */
+.homeSubCon2{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  border:1px solid rgb(88, 83, 83);
+  max-width:100%;
+  position:sticky;
+   
+   
+
+}
+.items1{
+  border:3px solid rgb(79, 73, 73);
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.items2{
+   width:50%;
+   min-width:360px;
+   height:600px;
+   overflow: hidden;
+   position: relative;
+   border:3px solid rgb(87, 86, 92);
+   
+}
+
+.img1{
+  width: 100%;
+  height:100%;
+  display: block;
+  object-fit: cover;
+   
+}
+.img2{
+  min-width:100%;
+  height:100%;
+  display: block;
+  object-fit: cover;
+  border:3px solid rgb(86, 83, 83);
+  
+
+}
+
+.text{
+    margin-top:-40rem;
+    color:white;
+    
+}
+.text2{
+    margin-top:-31.3rem;
+    color:white;
+    
+    
+}
+
+/* -----------@media------------------- */
+@media (max-width: 750px) {
+  
+  .text{
+    margin-top:-30rem;
+  }
+  .text h1{
+    font-size:25px;
+  }
+  .text h3{
+    font-size:18px;
+  }
+  .text h5{
+    font-size:15px;
+  }
+  
+  .items1{
+    height: 600px;
+  }
+ 
+  .items2{
+    width:100%;
+  }
+  .text2 h1{
+    font-size: 33px;;
+  }
+}
+/* --------------------STORE -Component-------------------------- */
+
+.storeNav1{
+  background-color: #000;
+   padding:25px 2px;
+   height:100px;
+   width:100vw;
+}
+
+.storeUl1{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: rgb(0, 0, 0);
+  width:97vw;
+  overflow-x: scroll;
+  gap:2vw;
+  text-align: center;
+  margin-left: 1vw;
+}
+.storeLl1{
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  width:100vw;
+}
+
+.storePc{
+  overflow-x: scroll;
+}
+.storeMob{
+  padding-left: 32px;
+
+}
+.mobCardsCon{
+  overflow-x: scroll;
+}
+/* ---------------carousals in mouse */
+ .arrow{
+  position:relative;
+  top:-260px;
+  color:white;
+  font-size:70px;
+  cursor:pointer;
+  opacity:.3;
+ 
+ }
+ #right-arrow{
+  float:right;
+ }
+/* ----------------------------PC-Component------------------------------ */
+
+  .cus-div1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+      height:280px;
+      border:1px solid rgb(52, 49, 49);
+      background-color: #000;
+    }
+.cus-center{
+    width:80%; 
+     }
+
+    .text3{
+      margin-top:-33rem;
+      color:white;
+    }
+    /* ---------------------@media queries----PC------------------- */
+
+@media (max-width: 750px){
+     .cus-center{
+        width:100%;
+     }
+}
+
+
+/* ------------------------MOBILE------------------------- */
+::-webkit-scrollbar{
+   display: none;
+}
+
+.MobNav1{
+  background-color: #000;
+   padding:25px 12px;
+   height:100px;
+   width:100vw;
+}
+.MobUl1{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: rgb(0, 0, 0);
+  width:97vw;
+  overflow-x: scroll;
+  gap:2vw;
+  text-align: center;
+  margin-left: 6vw;
+}
+.MobLl1{
+  cursor:pointer;
+  display: flex;
+  justify-content: center;
+  width:100vw;
+}
+/* ------------- */
+.mobDiv4Txt{
+   background:linear-gradient(to right,rgb(115, 112, 112) 1%,black 99%);
+   color:white;
+   text-align: center;
+   width:100%;
+   height:100%;
+   justify-content: center;
+   
+}
+
+.Txt1{
+  color:rgb(253, 253, 253);
+  position:relative;
+  top:50%;
+  height:100%;
+  
+}
+ 
+/* ----------------@MEDIA Queries------------------- */
+@media screen and (max-width:750px) {
+     
+  .MobUl1{
+    margin-left:0px;
+    width:100vw;
+  }
+  
+ 
+}
+
+/* ---------------------SERVICE----------------------------------- */
+
+.serDivUl{
+    justify-content: center;
+   width:100vw;
+   overflow-x: scroll;
+   gap:1.3vw;
+}
+
+ 
+.serItems{
+  width:100vw;
+  background-color: #000;
+  height:700px;
+}
+.ser-img{
+  width:100vw;
+  height: 700px;
+  
+}
+/* ---------------------@media----Service-------------------------- */
+@media screen and (max-width:750px){
+  .serDivUl{
+   justify-content: left;
+   
+  }
+
+}
+
+
+/* --------------------ERROR PAGE-------------------------- */
+@media  (max-width:750px) {
+  .errorDiv{
+    margin:1px auto;
+    
+  }
+}
+
+
+
+
+/* ---------------------------LOGIN FORM--------------------------------- */
+        
+.login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: rgba(220, 10, 206, 0.3);
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 12px;
+  
+  
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color:rgb(230, 101, 204);
+  border:none;
+  height:22px;
+  border-radius: 12px;
+
+}
+
+.login button {
+  width: 100%;
+  margin-top: 10px;
+  background-color:rgb(104, 90, 101);
+  color:darkturquoise;
+  border:none;
+  height:25px;
+  border-radius: 12px;
+}
+
